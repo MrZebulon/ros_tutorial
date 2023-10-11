@@ -35,6 +35,19 @@ cd ~
 mkdir -p catkin_ws/src
 cd catkin_ws
 catkin_make
+. ~/catkin_ws/devel/setup.bash
 ```
 
-Your source code should be in the **~catkin_ws/src** folder.
+Once this is done, make sure you are in the *catkin_ws/src folder*. We'll now create a new package
+```
+catkin_create_pkg <package_name> <dependencies>
+````
+To build your package, use:
+```
+catkin_make
+catkin_make install (optional)
+```
+
+# 4. What's next ?
+
+Here's a list of [ROS tutorials](https://wiki.ros.org/ROS/Tutorials), check them out. Especially useful to get more familiar with the ROS development workflow.
