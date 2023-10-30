@@ -35,7 +35,7 @@ cd ~
 mkdir -p catkin_ws/src
 cd catkin_ws
 catkin_make
-. ~/catkin_ws/devel/setup.bash
+source ~/catkin_ws/devel/setup.bash
 ```
 
 Once this is done, make sure you are in the *catkin_ws/src folder*. We'll now create a new package
